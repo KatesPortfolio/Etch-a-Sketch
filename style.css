@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows:repeat(16, 1fr) ;
+    background-color: skyblue;
+}
+
+.addColor{
+    background-color: pink;
+}
+
+.removeColor{
+    background-color : skyblue;
+}
